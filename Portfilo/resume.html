@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="loco.css">    
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <title> My Resume </title>
+</head>
+<body onload="startTime()">
+    <div id="minicircle"></div> 
+ <div id="main">
+    <header id="body-header">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="horizontal-list text-center nav-menu">
+                <li><a href="#" > Home </a></li>
+                <li><a href="#about" > About </a></li>
+                <li><a href="#skills" > Skills </a></li>
+                <li><a href="#experience" > Experience </a></li>
+                <li><a href="#education" > Education </a></li>
+                <li><a href="#portfolio" > Portfolio </a></li>
+                <li><a href="#contact" > Contact </a></li>
+            </ul>
+        </nav>
+
+        <div id="name-social-container">
+            <div id="header-name" class="text-center">
+                <h1 class="no-bold">Abdullah Khalid</h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-links">
+                    <li><a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114791_asid.148989926103_crid.662526547908_kw.www%20linkedin%20com_d.c_tid.kwd-2246448002_n.g_mt.p_geo.9300836" ><i class="fab fa-linkedin-in"></i></a></li>
+                    <li>
+                        <a href="#" ><i class="fab fa-stack-overflow"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.quora.com/profile/Abdullah-Khalid-497" ><i class="fab fa-quora"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section id="about">
+            <img id="profile-image" src="WhatsAppAbdullah .jpg">
+            <div id="self-info">
+                <p> I'm currently pursuing a Bachelor of Technology degree, in Information Technology from G.L Bajaj Institute, which is located in Greater Noida, Uttar Pradesh. My passion for technology and web development has driven me to explore aspects of this field.<span>
+                Recently I completed a Python Programming course that focused on Data Structures and Algorithms at Coding Ninjas. This course has provided me with a foundation in problem solving and logical thinking.
+                My journey in web development has been quite exciting. I have become proficient in HTML, CSS and JavaScript enabling me to create appealing and interactive front end experiences.</span>
+                Furthermore I am actively improving my skills in back end development using Node.js through the BandHand platform. This step aligns with my goal of becoming a rounded full stack web developer.
+                Being a newcomer with an interest in web development I am eagerly seeking opportunities where I can contribute to projects while continuously learning and growing. My aim is to combine my knowledge with creativity to develop dynamic web applications.
+                Lets connect! I'm thrilled about engaging with professionals exchanging insights and exploring how I can make contributions, to the ever evolving world of web development. </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-heading">
+                <i class="fas fa-chalkboard-teacher"></i><span>Skills</span>
+            </div>
+            <div id="skills-container">
+                <div class="skill-progress"><div id="skill-1" class="fifty-percent"><div class="skill-name">python</div></div></div>
+                <div class="skill-progress"><div id="skill-2" class="eighty-five-percent"><div class="skill-name">HTML</div></div></div>
+                <div class="skill-progress"><div id="skill-3" class="eighty-five-percent"><div class="skill-name">CSS</div></div></div>
+                <div class="skill-progress"><div id="skill-4" class="fifty-percent"><div class="skill-name">Javascript</div></div></div>
+                <div class="skill-progress"><div id="skill-5" class="eighty-five-percent"><div class="skill-name">NodeJs</div></div></div>
+                <div class="skill-progress"><div id="skill-6" class="fifty-percent"><div class="skill-name">MongoDB</div></div></div>
+            </div>
+        </section>
+
+        <!----<section id="experience">
+            <div class="section-heading">
+                <i class="fas fa-briefcase"></i><span>Work Experience</span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Designation</h1>
+                        <h4 class="no-bold">Company Name</h4>
+                        <h6 class="no-bold">Month YYYY - Month YYYY</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi dolorem explicabo minus, magnam, natus veniam sunt et nemo corporis odio? Earum, molestias, corrupti tenetur id iusto omnis quo fuga vitae sunt voluptate, excepturi minus! Explicabo, quo corporis cupiditate porro consectetur facilis deleniti nobis voluptatem eos error et molestiae, tempora optio accusantium? Veritatis impedit, eos quis doloremque quae asperiores omnis adipisci perspiciatis reprehenderit minus molestiae quod quasi neque eligendi pariatur!</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Designation</h1>
+                        <h4 class="no-bold">Company Name</h4>
+                        <h6 class="no-bold">Month YYYY - Month YYYY</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi dolorem explicabo minus, magnam, natus veniam sunt et nemo corporis odio? Earum, molestias, corrupti tenetur id iusto omnis quo fuga vitae sunt voluptate, excepturi minus! Explicabo, quo corporis cupiditate porro consectetur facilis deleniti nobis voluptatem eos error et molestiae, tempora optio accusantium? Veritatis impedit, eos quis doloremque quae asperiores omnis adipisci perspiciatis reprehenderit minus molestiae quod quasi neque eligendi pariatur!</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="divider-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                </div>      
+            </div>
+        </section>---->
+
+        <section id="education">
+            <div class="section-heading">
+                <i class="fas fa-graduation-cap"></i><span>Education</span>
+            </div>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Degree</h1>
+                        <h4 class="no-bold">Jamia Millia Islamia</h4>
+                        <h6 class="no-bold">August 2017 - June 2020</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Completed Diploma In Mechanical Engineering .</p>
+                    </div>
+                </div>
+                <div class="timeline-box">
+                    <div class="timeline-head">
+                        <img src="">
+                        <h1>Degree</h1>
+                        <h4 class="no-bold">GL Bajaj Institute of Technology and Management</h4>
+                        <h6 class="no-bold">August 2020 - june 2024</h6>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Pursuing B.Tech In Information Technology</p>
+                    </div>
+                </div>
+                <div class="timeline-divider">
+                    <div class="divider-icon">
+                        <i class="fas fa-car-side"></i></i>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="section-heading">
+                <i class="fas fa-list"></i><span>Portfolio</span>
+            </div>
+            <div id="portfolio-container">
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="middle text-center">
+                        <div class="portfolio-text">Write here basic details about the project.</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-heading">
+                <i class="far fa-address-card"></i><span>Contact</span>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form>
+                        <div><input type="text" placeholder="Your Name" class="input-field" required></div>
+                        <div><input type="email" placeholder="Your Email" class="input-field" required></div>
+                        <div><textarea class="input-field" placeholder="Message"></textarea></div>
+                        <div><a href="abdullahkhalid@gmail.com"><input type="button" class="white-border-transparent-button" id="submit" value="SEND MESSAGE"></a></div>
+                    </form>
+                </div>
+                <div class="address-container">
+                    <h2>Get in touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque tempora explicabo recusandae temporibus praesentium odit adipisci iure ea laboriosam!</p>
+
+                    <h2>My Address</h2>
+                    <div><i class="fas fa-map-marker-alt">  Knowledge Park 2 ,Greater Noida,Uttar Pardesh</i></div>
+                    <div><i class="fas fa-mobile"> 999-999-9999</i></div>
+                    <div><i class="far fa-envelope"></i></div>
+                </div>
+            </div>
+            <div class="bottom-list">
+                <ul class="horizontal-list text-center social-links" style="margin: 0;">
+                    <li><a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114791_asid.148989926103_crid.662526547908_kw.www%20linkedin%20com_d.c_tid.kwd-2246448002_n.g_mt.p_geo.9300836"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li>
+                        <a href="#" ><i class="fab fa-stack-overflow"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.quora.com/profile/Abdullah-Khalid-497" ><i class="fab fa-quora"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+        integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+       <script src="script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+      
+    </script>
+
+ </Main>
+
+</body>
+</html>
